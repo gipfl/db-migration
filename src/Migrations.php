@@ -34,7 +34,7 @@ class Migrations
     /**
      * Migrations constructor.
      *
-     * @param Mysql|Pgsql $db
+     * @param Db|ZfDb $db
      * @param string $schemaDirectory
      * @param string $tableName
      */
